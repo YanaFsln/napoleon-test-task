@@ -1,0 +1,5 @@
+.idea/
+data/
+node_modules/
+db.json
+test_db.json

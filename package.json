@@ -1,0 +1,25 @@
+{
+  "name": "napoleon-test-task",
+  "version": "1.0.0",
+  "description": "Test task for napoleon mobile school",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test | tap-spec"
+  },
+  "author": "Yana Petrovskaya",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "log4js": "^2.5.3",
+    "lowdb": "^1.0.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "randomstring": "^1.1.5",
+    "supertest": "^3.0.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  }
+}
